@@ -1,0 +1,5 @@
+title: "DolosMops Blog"
+description: "Pensée e riflessioni di DolosMops"
+theme: minima   # il tema base di Jekyll
+baseurl: ""
+url: "https://DolosMops.github.io"
