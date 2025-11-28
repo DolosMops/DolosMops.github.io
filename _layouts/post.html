@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+</head>
+<body>
+  <main style="max-width:700px;margin:40px auto;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p style="color:#666;font-size:0.9rem;margin-top:-6px;">{{ page.date | date: "%-d %B %Y" }}</p>
+      <div style="margin-top:20px;">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+</body>
+</html>
