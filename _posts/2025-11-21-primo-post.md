@@ -2,6 +2,8 @@
 layout: post
 title: "Il mio primo pensiero"
 date: 2025-11-21 18:07:59 +0000
+tags: [introduzione]
+
 ---
 
 Qui scrivo il contenuto del mio primo post.  
