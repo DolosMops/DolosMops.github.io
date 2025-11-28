@@ -1,0 +1,15 @@
+---
+layout: null
+---
+
+{% for tag in site.tags %}
+  <a href="/tag/{{ tag[0] }}/"></a>
+  {% capture path %}tag/{{ tag[0] }}/index.html{% endcapture %}
+  {% capture content %}
+---
+layout: default
+tag: {{ tag[0] }}
+---
+  {% endcapture %}
+  {% include create_file.html path=path content=content %}
+{% endfor %}
